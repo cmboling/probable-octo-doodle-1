@@ -10,4 +10,4 @@ queries:
 #   - src 
 paths-ignore: 
   - '**.md'
-  - 'tests/**'
+  - '**/login-tests/**'
