@@ -32,11 +32,6 @@ $(document).ready(function() {
     });
 });
 
-function f() {
-    x = 23;
-    let x;
-}
-
 function loadSomeRecords(someList, element) {
 	if(someList) {
 		var someDisplayedList = document.getElementById(element);
@@ -55,4 +50,9 @@ function loadSomeRecords(someList, element) {
 
 function logResults(name) {
   eval("console.log('This is a result: ' + name)");
+}
+
+function f() {
+    x = 23;
+    let x;
 }
