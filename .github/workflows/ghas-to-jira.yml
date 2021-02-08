@@ -3,7 +3,7 @@ name: "GHAS to JIRA Test"
 on:
   push:
     branches:
-      - master
+      - main
 #  schedule:
 #    - cron: '*/10 * * * *'    # trigger synchronization every 10 minutes
 
