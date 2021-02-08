@@ -8,6 +8,6 @@ queries:
 
 # paths:
 #   - src 
-# paths-ignore: 
-#   - src/node_modules
-#   - '**/*.test.js'
+paths-ignore: 
+  - '**.md'
+  - '**/login-tests/**'
