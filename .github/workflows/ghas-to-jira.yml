@@ -14,6 +14,7 @@ jobs:
       - name: Sync with JIRA
         uses: johnlugton/lgtm-issue-tracker-example@action
         with:
+          gh_url: 'https://api.github.com'
           github_token: '${{ secrets.GH_PAT }}'
           jira_url: 'https://jira.demo-stack.com'
           jira_user: '${{ secrets.JIRA_USER }}'
