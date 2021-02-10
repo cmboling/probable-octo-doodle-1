@@ -14,7 +14,7 @@ jobs:
       - name: Sync with JIRA
         uses: johnlugton/lgtm-issue-tracker-example@action
         with:
-          github_token: 'daa71b7c4b43fab135c0ac2bac09540e4ef3d4f7}'
+          github_token: '{{ $secrets.GH_PAT }}'
           jira_url: 'https://jira.demo-stack.com'
           jira_user: 'cmboling'
           jira_token: '4?aGgPiTSW7'
