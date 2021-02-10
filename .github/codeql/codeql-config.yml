@@ -11,3 +11,5 @@ queries:
 paths-ignore: 
   - '*.md'
   - '**/login-tests/**'
+  - 'src/service/test'
+  - 'src/workbench/test'
